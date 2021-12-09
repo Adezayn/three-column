@@ -15,20 +15,22 @@ main{
     align-items: center;
     width: 60%;
     margin:50px auto;
-    border: 1px solid transparent;
-    border-radius: 20px;
 }
 .flex-item{
     padding: 50px;
 }
 .flex-item-1{
  background: hsl(31, 77%, 52%);
+ border-top-left-radius: 20px;
+ border-bottom-left-radius: 20px;
 }
 .flex-item-2{
 background: hsl(184, 100%, 22%);
 }
 .flex-item-3{
 background: hsl(179, 100%, 13%);
+ border-bottom-right-radius: 20px;
+ border-top-right-radius: 20px;
 }
 img, h1{
     margin-bottom:20px;
@@ -66,11 +68,26 @@ button:hover {
 .flex-3{
     color:hsl(179, 100%, 13%);
 }
-.attribution { font-size: 11px; text-align: center; }
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    position:fixed;
+    bottom:0
+}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 @media (max-width: 750px){
     main{
         flex-direction: column;
+    }
+    .flex-item-1{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0;
+    }
+       .flex-item-3{
+       border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        border-top-right-radius: 0;
     }
 }
