@@ -10,19 +10,14 @@ Users should be able to:
 
 
 ### Screenshot
-<img src="/design/finished-products/nft_desktop_view.PNG">
+<img src="/design/finished-products/column-desktop.PNG">
 Desktop view
 
 
-<img src="/design/finished-products/nft_mobile_view.PNG">
+<img src="/design/finished-products/column-mobile.PNG">
 Mobile view
-
-
-<img src="/design/finished-products/nft_hover_state.PNG">
-Hover state
 
 ### Built with
 - HTML Semantic Markups
 - CSS 
 - Flexbox
-- Positioning

@@ -78,7 +78,11 @@ button:hover {
 
 @media (max-width: 750px){
     main{
+        margin:20px auto;
         flex-direction: column;
+    }
+    .flex-item{
+        padding: 30px;
     }
     .flex-item-1{
         border-top-left-radius: 20px;
@@ -89,5 +93,8 @@ button:hover {
        border-bottom-left-radius: 20px;
         border-bottom-right-radius: 20px;
         border-top-right-radius: 0;
+    }
+    button{
+        margin-top: 20px;
     }
 }
